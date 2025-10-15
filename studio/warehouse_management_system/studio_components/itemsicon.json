@@ -1,0 +1,44 @@
+{
+ "block": "{\n  \"componentId\": \"custom-card-1\",\n  \"componentName\": \"container\",\n  \"componentProps\": {},\n  \"componentSlots\": {},\n  \"componentEvents\": {\n    \"focus\": {\n      \"event\": \"focus\",\n      \"action\": \"Run Script\",\n      \"script\": \"document.querySelector('[data-component-id=\\\"custom-card-1\\\"]').style.transform = 'scale(1.05)'; document.querySelector('[data-component-id=\\\"custom-card-1\\\"]').style.boxShadow = 'rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.1) 0px 4px 6px -4px';\"\n    },\n    \"blur\": {\n      \"event\": \"blur\",\n      \"action\": \"Run Script\",\n      \"script\": \"document.querySelector('[data-component-id=\\\"custom-card-1\\\"]').style.transform = 'scale(1)'; document.querySelector('[data-component-id=\\\"custom-card-1\\\"]').style.boxShadow = 'none';\"\n    }\n  },\n  \"blockName\": \"container\",\n  \"children\": [\n    {\n      \"componentId\": \"custom-card-icon-wrapper-1\",\n      \"componentName\": \"container\",\n      \"componentProps\": {},\n      \"componentSlots\": {},\n      \"componentEvents\": {},\n      \"blockName\": \"container\",\n      \"children\": [\n        {\n          \"componentId\": \"custom-card-image-1\",\n          \"componentName\": \"ImageView\",\n          \"componentProps\": {\n            \"url\": \"/files/checklist-svgrepo-com.svg\",\n            \"altText\": \"Item Enquiry Icon\",\n            \"image\": \"{{ inputs.iconImage }}\",\n            \"alt\": \"{{ inputs.imgALT }}\"\n          },\n          \"componentSlots\": {},\n          \"componentEvents\": {},\n          \"blockName\": \"ImageView\",\n          \"children\": [],\n          \"baseStyles\": {\n            \"width\": \"50px\",\n            \"height\": \"50px\",\n            \"objectFit\": \"contain\"\n          },\n          \"rawStyles\": {},\n          \"mobileStyles\": {\n            \"width\": \"30px\",\n            \"height\": \"30px\",\n            \"objectFit\": \"contain\"\n          },\n          \"tabletStyles\": {},\n          \"classes\": []\n        }\n      ],\n      \"baseStyles\": {\n        \"display\": \"flex\",\n        \"alignItems\": \"center\",\n        \"justifyContent\": \"center\",\n        \"height\": \"120px\",\n        \"width\": \"120px\",\n        \"borderRadius\": \"50%\",\n        \"background\": \"#e5e7eb\",\n        \"marginBottom\": \"16px\"\n      },\n      \"rawStyles\": {},\n      \"mobileStyles\": {\n        \"height\": \"45px\",\n        \"width\": \"45px\",\n        \"marginBottom\": \"8px\"\n      },\n      \"tabletStyles\": {},\n      \"classes\": []\n    },\n    {\n      \"componentId\": \"custom-card-title-1\",\n      \"componentName\": \"TextBlock\",\n      \"componentProps\": {\n        \"text\": \"{{ inputs.titleText }}\",\n        \n        \"fontWeight\": \"font-semibold\"\n      },\n      \"componentSlots\": {},\n      \"componentEvents\": {},\n      \"blockName\": \"TextBlock\",\n      \"children\": [],\n      \"baseStyles\": {\n        \"color\": \"#1f2937\",\n        \"textAlign\": \"center\"\n      },\n      \"rawStyles\": {},\n      \"mobileStyles\": {\n        \"fontSize\": \"text-sm\"\n        },\n      \"tabletStyles\": {},\n      \"classes\": [\"text-sm\",\n    \"md:text-lg\"]\n    },\n    {\n      \"componentId\": \"TextBlock-2jvxfg5db\",\n      \"componentName\": \"TextBlock\",\n      \"componentProps\": {\n        \"text\": \"{{ inputs.subTitleText }}\",\n        \"fontSize\": \"text-sm\",\n        \"fontWeight\": \"font-medium\"\n      },\n      \"componentSlots\": {},\n      \"componentEvents\": {},\n      \"blockName\": \"TextBlock\",\n      \"children\": [],\n      \"baseStyles\": {\n        \"color\": \"#1f2937\",\n        \"textAlign\": \"center\"\n      },\n      \"rawStyles\": {},\n      \"mobileStyles\": {\n        \"fontSize\": \"text-sm\"\n      },\n      \"tabletStyles\": {},\n      \"classes\": []\n    }\n  ],\n  \"baseStyles\": {\n    \"display\": \"flex\",\n    \"flexDirection\": \"column\",\n    \"alignItems\": \"center\",\n    \"justifyContent\": \"center\",\n    \"padding\": \"24px\",\n    \"background\": \"#ffffff\",\n    \"borderRadius\": \"12px\",\n    \"cursor\": \"pointer\",\n    \"height\": \"100%\"\n  },\n  \"rawStyles\": {},\n  \"mobileStyles\": {\n    \"width\": \"60px\",\n    \"minWidth\": \"60px\",\n    \"height\": \"fit-content\",\n    \"padding\": \"8px\",\n    \"flexShrink\": 0\n  },\n  \"tabletStyles\": {},\n  \"classes\": [\n    \"shadow-md\",\n    \"transition-all\",\n    \"duration-200\",\n    \"ease-in-out\",\n    \"hover:scale-105\",\n    \"hover:shadow-xl\",\n    \"active:scale-100\"\n  ]\n}",
+ "component_id": "itemsicon",
+ "component_name": "itemsIcon",
+ "creation": "2025-10-07 22:49:44.662478",
+ "docstatus": 0,
+ "doctype": "Studio Component",
+ "idx": 0,
+ "inputs": [
+  {
+   "default": "",
+   "description": "SVG Image URL /files/example.svg",
+   "input_name": "iconImage",
+   "required": 0,
+   "type": "text"
+  },
+  {
+   "default": "",
+   "description": "alt text",
+   "input_name": "imgALT",
+   "required": 0,
+   "type": "text"
+  },
+  {
+   "default": "",
+   "description": "title text",
+   "input_name": "titleText",
+   "required": 0,
+   "type": "text"
+  },
+  {
+   "default": "",
+   "description": "",
+   "input_name": "subTitleText",
+   "required": 0,
+   "type": "text"
+  }
+ ],
+ "is_disabled": 0,
+ "modified": "2025-10-10 22:51:58.789771",
+ "modified_by": "anup@demo.com",
+ "name": "itemsicon",
+ "owner": "anup@demo.com"
+}

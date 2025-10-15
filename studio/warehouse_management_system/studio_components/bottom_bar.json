@@ -1,0 +1,58 @@
+{
+ "block": "{\"componentId\":\"container-8tdae0qd1\",\"componentName\":\"container\",\"componentProps\":{},\"componentSlots\":{},\"componentEvents\":{},\"blockName\":\"container\",\"children\":[{\"componentId\":\"container-fi5yjp7e0\",\"componentName\":\"container\",\"componentProps\":{},\"componentSlots\":{},\"componentEvents\":{},\"blockName\":\"container\",\"children\":[{\"componentId\":\"container-f98qj3eqo\",\"componentName\":\"container\",\"componentProps\":{},\"componentSlots\":{},\"componentEvents\":{},\"blockName\":\"container\",\"children\":[{\"componentId\":\"FeatherIcon-p25rvbs8l\",\"componentName\":\"FeatherIcon\",\"componentProps\":{\"name\":\"{{ inputs.Icon1 }}\",\"class\":\"h-6 w-6\"},\"componentSlots\":{},\"componentEvents\":{},\"blockName\":\"FeatherIcon\",\"children\":[],\"baseStyles\":{\"width\":\"25px\",\"height\":\"25px\"},\"rawStyles\":{},\"mobileStyles\":{},\"tabletStyles\":{},\"classes\":[]}],\"baseStyles\":{\"display\":\"flex\",\"flexDirection\":\"column\",\"flexShrink\":0,\"overflow\":\"hidden\",\"position\":\"static\",\"width\":\"100%\",\"justifyContent\":\"space-evenly\",\"alignItems\":\"center\"},\"rawStyles\":{},\"mobileStyles\":{},\"tabletStyles\":{},\"originalElement\":\"div\",\"classes\":[]},{\"componentId\":\"container-b2y95fx4r\",\"componentName\":\"container\",\"componentProps\":{},\"componentSlots\":{},\"componentEvents\":{},\"blockName\":\"container\",\"children\":[{\"componentId\":\"TextBlock-5mhhxpyhv\",\"componentName\":\"TextBlock\",\"componentProps\":{\"fontSize\":\"text-xs\",\"fontWeight\":\"font-normal\",\"text\":\"{{ inputs.Text1 }}\",\"tag\":\"{{ inputs.Text1 }}\"},\"componentSlots\":{},\"componentEvents\":{},\"blockName\":\"TextBlock\",\"children\":[],\"baseStyles\":{},\"rawStyles\":{},\"mobileStyles\":{},\"tabletStyles\":{},\"classes\":[]}],\"baseStyles\":{\"display\":\"flex\",\"flexDirection\":\"column\",\"flexShrink\":0,\"overflow\":\"hidden\",\"position\":\"static\",\"width\":\"100%\",\"alignItems\":\"center\",\"gridTemplateColumns\":\"repeat(2, minmax(200px, 1fr))\"},\"rawStyles\":{},\"mobileStyles\":{\"overflowX\":\"auto\",\"position\":\"relative\"},\"tabletStyles\":{},\"originalElement\":\"div\",\"classes\":[]}],\"baseStyles\":{\"display\":\"flex\",\"flexDirection\":\"column\",\"flexShrink\":0,\"overflow\":\"hidden\",\"padding\":\"0px\",\"width\":\"200px\",\"position\":\"absolute\",\"height\":\"auto\",\"left\":\"20px\"},\"rawStyles\":{},\"mobileStyles\":{\"width\":\"fit-content\",\"marginLeft\":\"0px\",\"left\":\"20px\"},\"tabletStyles\":{},\"originalElement\":\"div\",\"classes\":[]},{\"componentId\":\"container-7vms11fs4\",\"componentName\":\"container\",\"componentProps\":{},\"componentSlots\":{},\"componentEvents\":{},\"blockName\":\"container\",\"children\":[{\"componentId\":\"container-3h7yz5wrz\",\"componentName\":\"container\",\"componentProps\":{},\"componentSlots\":{},\"componentEvents\":{},\"blockName\":\"container\",\"children\":[{\"componentId\":\"FeatherIcon-mj7p9w8kl\",\"componentName\":\"FeatherIcon\",\"componentProps\":{\"name\":\"{{ inputs.Icon2 }}\",\"class\":\"h-6 w-6\"},\"componentSlots\":{},\"componentEvents\":{},\"blockName\":\"FeatherIcon\",\"children\":[],\"baseStyles\":{\"width\":\"25px\",\"height\":\"25px\"},\"rawStyles\":{},\"mobileStyles\":{},\"tabletStyles\":{},\"classes\":[]}],\"baseStyles\":{\"display\":\"flex\",\"flexDirection\":\"column\",\"flexShrink\":0,\"overflow\":\"hidden\",\"position\":\"static\",\"width\":\"100%\",\"justifyContent\":\"space-evenly\",\"alignItems\":\"center\"},\"rawStyles\":{},\"mobileStyles\":{},\"tabletStyles\":{},\"originalElement\":\"div\",\"classes\":[]},{\"componentId\":\"container-68ux79ztz\",\"componentName\":\"container\",\"componentProps\":{},\"componentSlots\":{},\"componentEvents\":{},\"blockName\":\"container\",\"children\":[{\"componentId\":\"TextBlock-ddq2t29jg\",\"componentName\":\"TextBlock\",\"componentProps\":{\"fontSize\":\"text-xs\",\"fontWeight\":\"font-normal\",\"text\":\"{{ inputs.Text2 }}\",\"tag\":\"{{ inputs.Text2 }}\"},\"componentSlots\":{},\"componentEvents\":{},\"blockName\":\"TextBlock\",\"children\":[],\"baseStyles\":{},\"rawStyles\":{},\"mobileStyles\":{},\"tabletStyles\":{},\"classes\":[]}],\"baseStyles\":{\"display\":\"flex\",\"flexDirection\":\"column\",\"flexShrink\":0,\"overflow\":\"hidden\",\"position\":\"static\",\"width\":\"100%\",\"alignItems\":\"center\",\"gridTemplateColumns\":\"repeat(2, minmax(200px, 1fr))\"},\"rawStyles\":{},\"mobileStyles\":{\"overflowX\":\"auto\",\"position\":\"relative\"},\"tabletStyles\":{},\"originalElement\":\"div\",\"classes\":[]}],\"baseStyles\":{\"display\":\"flex\",\"flexDirection\":\"column\",\"flexShrink\":0,\"overflow\":\"hidden\",\"padding\":\"0px\",\"width\":\"200px\",\"height\":\"auto\"},\"rawStyles\":{},\"mobileStyles\":{\"width\":\"fit-content\"},\"tabletStyles\":{},\"originalElement\":\"div\",\"classes\":[]},{\"componentId\":\"container-q6fc4w0g2\",\"componentName\":\"container\",\"componentProps\":{},\"componentSlots\":{},\"componentEvents\":{},\"blockName\":\"container\",\"children\":[{\"componentId\":\"container-hm61k1e1t\",\"componentName\":\"container\",\"componentProps\":{},\"componentSlots\":{},\"componentEvents\":{},\"blockName\":\"container\",\"children\":[{\"componentId\":\"FeatherIcon-b2kipijwz\",\"componentName\":\"FeatherIcon\",\"componentProps\":{\"name\":\"{{ inputs.Icon3 }}\",\"class\":\"h-6 w-6\"},\"componentSlots\":{},\"componentEvents\":{},\"blockName\":\"FeatherIcon\",\"children\":[],\"baseStyles\":{\"width\":\"25px\",\"height\":\"25px\"},\"rawStyles\":{},\"mobileStyles\":{},\"tabletStyles\":{},\"classes\":[]}],\"baseStyles\":{\"display\":\"flex\",\"flexDirection\":\"column\",\"flexShrink\":0,\"overflow\":\"hidden\",\"position\":\"static\",\"width\":\"100%\",\"justifyContent\":\"space-evenly\",\"alignItems\":\"center\"},\"rawStyles\":{},\"mobileStyles\":{},\"tabletStyles\":{},\"originalElement\":\"div\",\"classes\":[]},{\"componentId\":\"container-1kd88kwgv\",\"componentName\":\"container\",\"componentProps\":{},\"componentSlots\":{},\"componentEvents\":{},\"blockName\":\"container\",\"children\":[{\"componentId\":\"TextBlock-xq6kc5w9k\",\"componentName\":\"TextBlock\",\"componentProps\":{\"fontSize\":\"text-xs\",\"fontWeight\":\"font-normal\",\"text\":\"{{ inputs.Text3 }}\",\"tag\":\"{{ inputs.Text3 }}\"},\"componentSlots\":{},\"componentEvents\":{},\"blockName\":\"TextBlock\",\"children\":[],\"baseStyles\":{},\"rawStyles\":{},\"mobileStyles\":{},\"tabletStyles\":{},\"classes\":[]}],\"baseStyles\":{\"display\":\"flex\",\"flexDirection\":\"column\",\"flexShrink\":0,\"overflow\":\"hidden\",\"position\":\"static\",\"width\":\"100%\",\"alignItems\":\"center\",\"gridTemplateColumns\":\"repeat(2, minmax(200px, 1fr))\"},\"rawStyles\":{},\"mobileStyles\":{\"overflowX\":\"auto\",\"position\":\"relative\"},\"tabletStyles\":{},\"originalElement\":\"div\",\"classes\":[]}],\"baseStyles\":{\"display\":\"flex\",\"flexDirection\":\"column\",\"flexShrink\":0,\"overflow\":\"hidden\",\"padding\":\"0px\",\"width\":\"200px\",\"position\":\"absolute\",\"right\":\"20px\",\"height\":\"auto\"},\"rawStyles\":{},\"mobileStyles\":{\"width\":\"fit-content\"},\"tabletStyles\":{},\"originalElement\":\"div\",\"classes\":[]}],\"baseStyles\":{\"width\":\"100%\",\"display\":\"flex\",\"flexDirection\":\"row\",\"justifyContent\":\"space-evenly\",\"flexWrap\":\"nowrap\",\"overflowX\":\"auto\",\"position\":\"absolute\",\"bottom\":\"0px\",\"boxShadow\":\"rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.05) 0px 1px 2px 0px, rgba(0, 0, 0, 0.05) 0px 1px 3px 0px\",\"background\":\"#fafafa\",\"borderColor\":\"#dbd9d9\",\"borderWidth\":\"1px\",\"borderStyle\":\"solid\",\"padding\":\"10px0px\"},\"rawStyles\":{},\"mobileStyles\":{\"boxShadow\":\"rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.1) 0px 4px 6px -4px\",\"position\":\"absolute\",\"margin\":\"0px\",\"justifyContent\":\"space-evenly\",\"paddingTop\":\"20px\",\"paddingRight\":\"0px\",\"paddingBottom\":\"0px\",\"paddingLeft\":\"0px\",\"bottom\":\"0px\"},\"tabletStyles\":{},\"visibilityCondition\":\"\",\"originalElement\":\"div\",\"classes\":[]}",
+ "component_id": "bottom_bar",
+ "component_name": "bottom bar",
+ "creation": "2025-10-03 23:37:15.251350",
+ "docstatus": 0,
+ "doctype": "Studio Component",
+ "idx": 0,
+ "inputs": [
+  {
+   "default": "Text1",
+   "description": "",
+   "input_name": "Text1",
+   "required": 0,
+   "type": "text"
+  },
+  {
+   "default": "Text2",
+   "description": "",
+   "input_name": "Text2",
+   "required": 0,
+   "type": "text"
+  },
+  {
+   "default": "Text3",
+   "description": "",
+   "input_name": "Text3",
+   "required": 0,
+   "type": "text"
+  },
+  {
+   "default": "check-circle",
+   "description": "",
+   "input_name": "Icon1",
+   "required": 0,
+   "type": "text"
+  },
+  {
+   "default": "shopping-cart",
+   "description": "",
+   "input_name": "Icon2",
+   "required": 0,
+   "type": "text"
+  },
+  {
+   "default": "truck",
+   "description": "",
+   "input_name": "Icon3",
+   "required": 0,
+   "type": "text"
+  }
+ ],
+ "is_disabled": 0,
+ "modified": "2025-10-09 01:19:31.842378",
+ "modified_by": "anup@demo.com",
+ "name": "bottom_bar",
+ "owner": "anup@demo.com"
+}

@@ -1,0 +1,30 @@
+{
+ "block": "{\"componentId\":\"bin-card-root\",\"componentName\":\"container\",\"componentProps\":{},\"componentSlots\":{},\"componentEvents\":{},\"blockName\":\"container\",\"children\":[{\"componentId\":\"bin-card-title\",\"componentName\":\"TextBlock\",\"componentProps\":{\"text\":\"{{ inputs.titleText }}\"},\"componentSlots\":{},\"componentEvents\":{},\"blockName\":\"TextBlock\",\"children\":[],\"baseStyles\":{},\"rawStyles\":{},\"mobileStyles\":{},\"tabletStyles\":{},\"classes\":[\"text-lg\",\"font-semibold\"]},{\"componentId\":\"container-jby9pabvq\",\"componentName\":\"container\",\"componentProps\":{},\"componentSlots\":{},\"componentEvents\":{},\"blockName\":\"container\",\"children\":[{\"componentId\":\"bin-card-subtitle\",\"componentName\":\"TextBlock\",\"componentProps\":{\"text\":\"Total Quantity: {{ inputs.subTitleText }}\"},\"componentSlots\":{},\"componentEvents\":{},\"blockName\":\"TextBlock\",\"children\":[],\"baseStyles\":{\"marginTop\":\"4px\",\"marginRight\":\"0px\",\"marginBottom\":\"0px\",\"marginLeft\":\"0px\"},\"rawStyles\":{},\"mobileStyles\":{},\"tabletStyles\":{},\"classes\":[\"text-sm\",\"text-gray-600\"]},{\"componentId\":\"editbutton-szn1hotgb\",\"componentName\":\"editbutton\",\"componentProps\":{},\"componentSlots\":{},\"componentEvents\":{\"click\":{\"event\":\"click\",\"action\":\"Run Script\",\"script\":\"console.log(\\\"nweQuantity\\\", newQuantity.value)\\nnewQuantity.value = 0\\nconsole.log(\\\"edit button clicked-\\\",  inputs.titleText, \\\"---\\\", dataItem.item_code );\\n// 1. Store the entire data object of the clicked bin\\neditingBinItem.value = dataItem;\\n\\n// 2. Pre-fill the input with the current quantity\\nnewQuantity.value = dataItem.actual_qty;\\n\\n// 3. Open the dialog\\nisEditDialogOpen.value = true;\\n\\nconst warehouseName = dataItem.warehouse\\n\\nselectedItem.value[0].warehouse = warehouseName;\\nstockRecoPurpose.value = \\\"Stock Reconciliation\\\"\\nconsole.log(\\\"warehouseName:\\\", warehouseName)\\nconsole.log(\\\"editing bin item value- \\\",  editingBinItem.value.item_code, \\\"editing bin warehouse- \\\",  editingBinItem.value.warehouse );\\nconsole.log( \\\"  newQuantity.value - \\\",   newQuantity.value);\\nconsole.log(\\\"   isEditDialogOpen - \\\", isEditDialogOpen.value );\\nconsole.log (\\\"dataitem: \\\", dataItem);\\nconsole.log (\\\"selectedItem.value: \\\", selectedItem.value);\\n\"}},\"blockName\":\"editbutton\",\"children\":[],\"baseStyles\":{\"width\":\"70px\"},\"rawStyles\":{},\"mobileStyles\":{},\"tabletStyles\":{},\"classes\":[],\"isStudioComponent\":true}],\"baseStyles\":{\"display\":\"flex\",\"flexDirection\":\"row\",\"flexShrink\":0,\"justifyContent\":\"space-between\",\"gridTemplateColumns\":\"repeat(auto-fill, minmax(300px, 1fr))\",\"position\":\"relative\",\"gridAutoColumns\":\"minmax(300px, 1fr)\",\"alignItems\":\"flex-start\",\"gap\":\"10px\",\"width\":\"200px\"},\"rawStyles\":{},\"mobileStyles\":{},\"tabletStyles\":{},\"originalElement\":\"div\",\"classes\":[]}],\"baseStyles\":{\"display\":\"flex\",\"flexDirection\":\"row\",\"background\":\"#ffffff\",\"borderRadius\":\"8px\",\"padding\":\"16px\",\"width\":\"100%\",\"height\":\"fit-content\",\"justifyContent\":\"space-between\",\"gap\":\"10px\"},\"rawStyles\":{},\"mobileStyles\":{\"flexDirection\":\"row\",\"justifyContent\":\"space-between\",\"alignItems\":\"flex-start\"},\"tabletStyles\":{},\"classes\":[\"shadow\"]}",
+ "component_id": "bincard",
+ "component_name": "binCard",
+ "creation": "2025-10-10 23:38:33.772200",
+ "docstatus": 0,
+ "doctype": "Studio Component",
+ "idx": 0,
+ "inputs": [
+  {
+   "default": "",
+   "description": "warehouse name display in binCard",
+   "input_name": "titleText",
+   "required": 0,
+   "type": "text"
+  },
+  {
+   "default": "",
+   "description": "quantity display in binCard",
+   "input_name": "subTitleText",
+   "required": 0,
+   "type": "text"
+  }
+ ],
+ "is_disabled": 0,
+ "modified": "2025-10-12 13:55:33.594232",
+ "modified_by": "anup@demo.com",
+ "name": "bincard",
+ "owner": "anup@demo.com"
+}

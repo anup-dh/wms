@@ -1,0 +1,15 @@
+{
+ "app_home": "page-a0f21a99",
+ "app_name": "Warehouse Management System",
+ "app_title": "WMS",
+ "creation": "2025-10-03 21:50:18.429968",
+ "doctype": "Studio App",
+ "frappe_app": "wms",
+ "idx": 647,
+ "is_standard": 1,
+ "modified": "2025-10-15 18:52:26.243988",
+ "modified_by": "Administrator",
+ "name": "Warehouse Management System",
+ "owner": "Administrator",
+ "route": "wms-studio"
+}

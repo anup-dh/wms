@@ -1,0 +1,37 @@
+{
+ "block": "{\n  \"componentId\": \"wh-card-root\",\n  \"componentName\": \"container\",\n  \"componentProps\": {},\n  \"componentSlots\": {},\n  \"componentEvents\": {},\n  \"blockName\": \"container\",\n  \"children\": [\n    {\n      \"componentId\": \"wh-card-title\",\n      \"componentName\": \"TextBlock\",\n      \"componentProps\": {\n        \"text\": \"{{ inputs.WarehouseName }}\"\n      },\n      \"componentSlots\": {},\n      \"componentEvents\": {},\n      \"blockName\": \"TextBlock\",\n      \"children\": [],\n      \"baseStyles\": {\n        \"fontSize\": \"text-base\"\n      },\n      \"rawStyles\": {},\n      \"mobileStyles\": {\n        \"fontSize\": \"text-sm\"\n      },\n      \"tabletStyles\": {},\n      \"classes\": [\n        \"text-lg\",\n        \"font-semibold\"\n      ]\n    },\n    {\n      \"componentId\": \"container-jby9pabvq\",\n      \"componentName\": \"container\",\n      \"componentProps\": {},\n      \"componentSlots\": {},\n      \"componentEvents\": {},\n      \"blockName\": \"container\",\n      \"children\": [\n        {\n          \"componentId\": \"Badge-2h83tbq9u\",\n          \"componentName\": \"Badge\",\n          \"componentProps\": {\n            \"variant\": \"subtle\",\n            \"theme\": \"green\",\n            \"size\": \"lg\",\n            \"label\": \"Total Quantity: {{ inputs.totalQty }}\"\n          },\n          \"componentSlots\": {},\n          \"componentEvents\": {},\n          \"blockName\": \"Badge\",\n          \"children\": [],\n          \"baseStyles\": {\n            \"paddingTop\": \"5px\",\n            \"paddingBottom\": \"5px\",\n            \"paddingLeft\": \"10px\",\n            \"paddingRight\": \"10px\",\n            \"width\": \"fit-content\"\n          },\n          \"rawStyles\": {},\n          \"mobileStyles\": {},\n          \"tabletStyles\": {},\n          \"classes\": []\n        },\n        {\n          \"componentId\": \"Badge-81j66j3gc\",\n          \"componentName\": \"Badge\",\n          \"componentProps\": {\n            \"variant\": \"subtle\",\n            \"theme\": \"orange\",\n            \"size\": \"sm\",\n            \"label\": \"Total Bins: {{ inputs.binsTotal }}\"\n          },\n          \"componentSlots\": {},\n          \"componentEvents\": {},\n          \"blockName\": \"Badge\",\n          \"children\": [],\n          \"baseStyles\": {\n            \"height\": \"26px\",\n            \"width\": \"fit-content\"\n          },\n          \"rawStyles\": {},\n          \"mobileStyles\": {},\n          \"tabletStyles\": {},\n          \"classes\": []\n        }\n      ],\n      \"baseStyles\": {\n        \"display\": \"flex\",\n        \"flexDirection\": \"row\",\n        \"justifyContent\": \"flex-end\",\n        \"alignItems\": \"center\",\n        \"gap\": \"10px\",\n        \"flexWrap\": \"wrap\"\n      },\n      \"rawStyles\": {},\n      \"mobileStyles\": {\n        \"flexDirection\": \"column\",\n        \"alignItems\": \"flex-start\",\n        \"justifyContent\": \"center\",\n        \"width\": \"100%\"\n      },\n      \"tabletStyles\": {},\n      \"originalElement\": \"div\",\n      \"classes\": []\n    }\n  ],\n  \"baseStyles\": {\n    \"display\": \"flex\",\n    \"flexDirection\": \"row\",\n    \"background\": \"#ffffff\",\n    \"borderRadius\": \"8px\",\n    \"width\": \"100%\",\n    \"height\": \"fit-content\",\n    \"justifyContent\": \"space-between\",\n    \"alignItems\": \"center\",\n    \"gap\": \"10px\",\n    \"paddingTop\": \"16px\",\n    \"paddingBottom\": \"16px\",\n    \"paddingLeft\": \"24px\",\n    \"paddingRight\": \"24px\"\n  },\n  \"rawStyles\": {},\n  \"mobileStyles\": {\n    \"flexDirection\": \"column\",\n    \"alignItems\": \"flex-start\",\n    \"width\": \"200px\"\n  },\n  \"tabletStyles\": {},\n  \"classes\": [\n    \"shadow\"\n  ]\n}",
+ "component_id": "warehousecard",
+ "component_name": "warehouseCard",
+ "creation": "2025-10-13 00:51:36.030652",
+ "docstatus": 0,
+ "doctype": "Studio Component",
+ "idx": 0,
+ "inputs": [
+  {
+   "default": "",
+   "description": "",
+   "input_name": "totalQty",
+   "required": 0,
+   "type": "text"
+  },
+  {
+   "default": "",
+   "description": "",
+   "input_name": "binsTotal",
+   "required": 0,
+   "type": "text"
+  },
+  {
+   "default": "",
+   "description": "",
+   "input_name": "WarehouseName",
+   "required": 0,
+   "type": "text"
+  }
+ ],
+ "is_disabled": 0,
+ "modified": "2025-10-14 15:52:52.661896",
+ "modified_by": "anup@demo.com",
+ "name": "warehousecard",
+ "owner": "anup@demo.com"
+}

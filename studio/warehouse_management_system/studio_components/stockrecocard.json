@@ -1,0 +1,44 @@
+{
+ "block": "{\"componentId\":\"wh-card-root\",\"componentName\":\"container\",\"componentProps\":{},\"componentSlots\":{},\"componentEvents\":{},\"blockName\":\"container\",\"children\":[{\"componentId\":\"container-j63isf4sv\",\"componentName\":\"container\",\"componentProps\":{},\"componentSlots\":{},\"componentEvents\":{},\"blockName\":\"container\",\"children\":[{\"componentId\":\"wh-card-title\",\"componentName\":\"TextBlock\",\"componentProps\":{\"text\":\"{{ inputs.WarehouseName }}\"},\"componentSlots\":{},\"componentEvents\":{},\"blockName\":\"TextBlock\",\"children\":[],\"baseStyles\":{\"fontSize\":\"text-base\"},\"rawStyles\":{},\"mobileStyles\":{\"fontSize\":\"text-sm\"},\"tabletStyles\":{},\"classes\":[\"text-lg\",\"font-semibold\"]},{\"componentId\":\"container-3n84akhq3\",\"componentName\":\"container\",\"componentProps\":{},\"componentSlots\":{},\"componentEvents\":{},\"blockName\":\"container\",\"children\":[{\"componentId\":\"TextBlock-bpntl377f\",\"componentName\":\"TextBlock\",\"componentProps\":{\"fontSize\":\"text-sm\",\"fontWeight\":\"font-normal\",\"text\":\"{{ inputs.itemName }}\"},\"componentSlots\":{},\"componentEvents\":{},\"blockName\":\"TextBlock\",\"children\":[],\"baseStyles\":{},\"rawStyles\":{},\"mobileStyles\":{},\"tabletStyles\":{},\"classes\":[]},{\"componentId\":\"TextBlock-oaxtdpsvp\",\"componentName\":\"TextBlock\",\"componentProps\":{\"fontSize\":\"text-sm\",\"fontWeight\":\"font-normal\",\"text\":\"{{ inputs.wHname }}\"},\"componentSlots\":{},\"componentEvents\":{},\"blockName\":\"TextBlock\",\"children\":[],\"baseStyles\":{},\"rawStyles\":{},\"mobileStyles\":{},\"tabletStyles\":{},\"classes\":[]}],\"baseStyles\":{\"display\":\"flex\",\"flexDirection\":\"row\",\"flexShrink\":0,\"height\":\"fit-content\",\"width\":\"fit-content\",\"marginTop\":\"10px\",\"marginRight\":\"0px\",\"marginBottom\":\"0px\",\"marginLeft\":\"0px\"},\"rawStyles\":{},\"mobileStyles\":{},\"tabletStyles\":{},\"originalElement\":\"div\",\"classes\":[]}],\"baseStyles\":{\"display\":\"flex\",\"flexDirection\":\"column\",\"flexShrink\":0,\"height\":\"fit-content\",\"width\":\"fit-content\",\"justifyContent\":\"center\",\"alignItems\":\"flex-start\"},\"rawStyles\":{},\"mobileStyles\":{},\"tabletStyles\":{},\"originalElement\":\"div\",\"classes\":[]},{\"componentId\":\"container-jby9pabvq\",\"componentName\":\"container\",\"componentProps\":{},\"componentSlots\":{},\"componentEvents\":{},\"blockName\":\"container\",\"children\":[{\"componentId\":\"Badge-2h83tbq9u\",\"componentName\":\"Badge\",\"componentProps\":{\"variant\":\"subtle\",\"theme\":\"green\",\"size\":\"lg\",\"label\":\"Status : {{ inputs.status }}\"},\"componentSlots\":{},\"componentEvents\":{},\"blockName\":\"Badge\",\"children\":[],\"baseStyles\":{\"paddingTop\":\"5px\",\"paddingBottom\":\"5px\",\"paddingLeft\":\"10px\",\"paddingRight\":\"10px\",\"width\":\"fit-content\"},\"rawStyles\":{},\"mobileStyles\":{},\"tabletStyles\":{},\"classes\":[]}],\"baseStyles\":{\"display\":\"flex\",\"flexDirection\":\"row\",\"justifyContent\":\"flex-end\",\"alignItems\":\"center\",\"gap\":\"10px\",\"flexWrap\":\"wrap\"},\"rawStyles\":{},\"mobileStyles\":{\"flexDirection\":\"column\",\"alignItems\":\"flex-start\",\"justifyContent\":\"center\",\"width\":\"100%\"},\"tabletStyles\":{},\"originalElement\":\"div\",\"classes\":[]}],\"baseStyles\":{\"display\":\"flex\",\"flexDirection\":\"row\",\"background\":\"#ffffff\",\"borderRadius\":\"8px\",\"width\":\"100%\",\"height\":\"fit-content\",\"justifyContent\":\"space-between\",\"alignItems\":\"center\",\"gap\":\"10px\",\"paddingTop\":\"16px\",\"paddingBottom\":\"16px\",\"paddingLeft\":\"24px\",\"paddingRight\":\"24px\"},\"rawStyles\":{},\"mobileStyles\":{\"flexDirection\":\"column\",\"alignItems\":\"flex-start\",\"width\":\"200px\"},\"tabletStyles\":{},\"classes\":[\"shadow\"]}",
+ "component_id": "stockrecocard",
+ "component_name": "stockRecoCard",
+ "creation": "2025-10-15 17:09:18.145288",
+ "docstatus": 0,
+ "doctype": "Studio Component",
+ "idx": 0,
+ "inputs": [
+  {
+   "default": "",
+   "description": "",
+   "input_name": "itemName",
+   "required": 0,
+   "type": "text"
+  },
+  {
+   "default": "",
+   "description": "",
+   "input_name": "status",
+   "required": 0,
+   "type": "text"
+  },
+  {
+   "default": "",
+   "description": "",
+   "input_name": "name",
+   "required": 0,
+   "type": "text"
+  },
+  {
+   "default": "",
+   "description": "",
+   "input_name": "wHname",
+   "required": 0,
+   "type": "text"
+  }
+ ],
+ "is_disabled": 0,
+ "modified": "2025-10-15 17:22:58.370795",
+ "modified_by": "anup@demo.com",
+ "name": "stockrecocard",
+ "owner": "anup@demo.com"
+}
