@@ -7,9 +7,10 @@
  "frappe_app": "wms",
  "idx": 647,
  "is_standard": 1,
- "modified": "2025-10-15 18:52:26.243988",
+ "modified": "2025-10-15 19:28:15.234087",
  "modified_by": "Administrator",
  "name": "Warehouse Management System",
  "owner": "Administrator",
- "route": "wms-studio"
+ "published": 1,
+ "route": "wms"
 }
